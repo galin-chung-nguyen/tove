@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+* {
+  box-sizing: border-box;
+}
+
+.App.loginPage {
+  font-family: "Fira Sans", sans-serif;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #101d48;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  label,
+  span {
+    font-weight: 500;
+    font-family: "Fira Sans", sans-serif;
+  }
+
+  .auth-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+
+    .auth-inner {
+      width: 450px;
+      margin: auto;
+      background: #ffffff;
+      box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+      padding: 40px calc(max(2rem,55px));
+      border-radius: 15px;
+      transition: all 0.3s;
+      max-width: 100%;
+    }
+
+    .form-control:focus {
+      border-color: #167bff;
+      box-shadow: none;
+    }
+
+    h3 {
+      text-align: center;
+      margin: 0;
+      line-height: 1;
+      padding-bottom: 20px;
+    }
+  }
+
+  .form-group {
+    padding: 5px 0;
+
+    label {
+      margin-bottom: 10px;
+    }
+
+    .custom-control-label {
+      font-weight: 400;
+      margin-left: 12px;
+    }
+
+    .google-login-btn {
+      width: 100%;
+      justify-content: center;
+      border: 1px solid #d4d4d4 !important;
+      border-radius: 4px;
+      padding: 5px 0 !important;
+      box-shadow: none !important;
+      margin: 20px 0;
+
+      span {
+        font-size: 16px;
+        font-weight: 600;
+        color: #62646a;
+      }
+    }
+  }
+
+  .forgot-password,
+  .forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+  }
+
+  .forgot-password a {
+    color: #167bff;
+  }
+}

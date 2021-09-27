@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+.landingPage {
+    .home_container {
+        padding-top: 140px;
+        .home_wrapper {
+            text-align: center;
+            .introline_wrapper {
+                .heading_sub{
+                    max-width: 600px;
+                    font-size: 18px;
+                    display: inline-block;
+                }
+            }
+
+            .home_figure{
+                .btn_wrapper{
+                    .sign_in_link{
+                        text-decoration: none!important;
+                        .get_started_btn{
+                            background: #0A8080;
+                            color: #fff;
+                            padding: 10px 30px;
+                            font-size: 16px;
+                        }   
+                    }
+                }
+                img{
+                    width: 100%;
+                    max-width: 750px;
+                    margin-top: -50px;
+                }
+            }
+        }
+        .feature_wrapper{
+            background: #fffaf6;
+        }
+    }
+}
+.footer{
+    padding: 50px 0;
+    text-align: center;
+}

@@ -1,0 +1,158 @@
+.bodyWrapper {
+    background: #f5f7f7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    .vote-info-wrapper {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .vote-info-form {
+            width: 720px;
+            padding: 20px;
+
+            .vote_name {
+                margin-bottom: 15px;
+                text-align: center;
+            }
+
+            .vote_progress {
+                text-align: center;
+                margin-bottom: 20px;
+                .vote_progress_content {
+                    background: #23a195;
+                    color: #fff;
+                    font-weight: normal;
+                    text-align: center;
+                    text-decoration: none;
+                    line-height: 1;
+                    white-space: nowrap;
+                    display: inline-block;
+                    position: relative;
+                    padding: 7px 20px;
+                    font-size: 13px;
+                    border-radius: 100px;
+                    margin-bottom: 10px;
+                }
+            }
+            .vote_progress.opening {
+                background: #44a047;
+            }
+
+            .hidden {
+                display: none;
+            }
+
+            .Overview {
+                .heading {
+                    margin: 18px;
+
+                    .creater_info,
+                    .vote_id {
+                        font-size: 16px;
+                        span {
+                            color: #1f78d1;
+                        }
+                    }
+                    .vote_id {
+                        margin-bottom: 10px;
+                    }
+                    .vote_description {
+                        color: #464545;
+                        font-size: 16px;
+                    }
+                }
+                .time_wrapper {
+                    margin: 15px 0;
+                }
+            }
+
+            .list_participants {
+                background: none;
+                padding: 18px 0 0 0;
+            }
+
+            .join_vote_wrapper {
+                .join_vote_btn_group {
+                    text-align: center;
+                    padding-top: 10px;
+
+                    .join_now_btn.btn_theme,
+                    .vote_btn.btn_theme {
+                        background: #1976d2;
+                        color: white;
+                    }
+
+                    .vote_btn.btn_voted_them {
+                        background: green;
+                        color: white;
+                    }
+
+                    .join_now_btn_wrapper,
+                    .vote_btn_wrapper {
+                        position: relative;
+                        display: inline-block;
+                        margin: 8px;
+                        button {
+                            margin: 0;
+                        }
+
+                        .loading_cirlce {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            margin-top: -12px;
+                            margin-left: -12px;
+                        }
+                        .loading_cirlce.disabled {
+                            display: none;
+                        }
+                    }
+
+                    .vote_btn .send_icon {
+                        margin-left: 7px;
+                    }
+                }
+
+                .choice_name_wrapper {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    align-items: center;
+
+                    span {
+                        font-size: 16px;
+                    }
+                }
+                .choice_description_wrapper {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    justify-content: space-between;
+                    p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .confirm_create_box {
+        .ccb_title {
+            button {
+                background: none;
+                border: none;
+                span {
+                    color: #000 !important;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

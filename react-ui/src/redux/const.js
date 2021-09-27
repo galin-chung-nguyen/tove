@@ -1,0 +1,4 @@
+export const SET_USER_INFO = 'SET_USER_INFO';
+export const SET_VOTE_INFO = 'SET_VOTE_INFO';
+export const SET_SNACKBAR_INFO = 'SET_SNACKBAR_INFO';
+export const SET_HOME_LATEST_TIME = 'SET_HOME_LATEST_TIME';
